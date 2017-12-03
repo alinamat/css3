@@ -1,45 +1,37 @@
-html {
-    font-size: 20px;
+body {
+    background-color: mediumaquamarine;
 }
 
-#container {
-    font-size: 30px;
+div {
+    margin-bottom: 5px;
 }
 
-#container > div {
-    background-color: gray;
-    margin-bottom: 15px;
-    height: 35px;
+#kolory-predefiniowane {
+    width: 200px;
+    height: 100px;
+    background-color: red;
 }
 
-#pixele {
-    width: 400px;
+#kolory-heksadecymalne {
+    width: 200px;
+    height: 100px;
+    background-color: #1750aa;
 }
 
-#em {
-    width: 20em;
+#kolory-heksadecymalne-zapis-skrocony {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(197, 71, 208);
 }
 
-#ex {
-    width: 20ex;
+#kolory-funkcja-rgb {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(71, 208, 82);
 }
 
-#rem {
-    width: 20rem;
-}
-
-#procenty {
-    width: 50%;
-}
-
-#vw {
-    width: 60vw;
-}
-
-#vmin {
-    width: 60vmin;
-}
-
-#vmax {
-    width: 60vmax;
+#kolory-funkcja-rgba {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(181, 30, 88);
 }
